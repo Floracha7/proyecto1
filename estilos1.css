@@ -1,0 +1,30 @@
+.clases{
+	width: 50%;
+	height: 100%;
+	margin-top: 20px;
+	background-color:#cccccc;
+	text-align: center;
+	border-radius: 8px;
+	border: 5px solid #f06156;
+	font-family: "Arial Black";
+
+}
+.formas {
+background-color:#cccccc;
+font-family: "Arial Black";
+margin-left: 10px;
+border-radius: 7px;
+margin-top: 20px;
+}
+
+
+/* pantalla maximo 480px */
+@media screen and (max-width:480px){
+	.formas {
+		 font-size:60%;
+	}
+	.clases {
+		font-size:60%;
+	}
+
+}
